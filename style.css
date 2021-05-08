@@ -1,0 +1,76 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.carousel-inner img{
+	height: 400px;
+	object-fit: cover;
+}
+
+form{
+	width: 40%;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	border: 1px solid #333;
+	padding: 15px;
+	border-radius: 12px;
+}
+
+.form-control{
+	border-width: 0 0 1px 0;
+	border-color: blue;
+}
+
+.form-control:focus{
+	box-shadow: none;
+}
+
+h1{
+    margin-top: 5%;
+}
+
+.form{
+	width: 40%;
+	top: 20%;
+}
+
+section{
+	display: flex;;
+
+}
+
+section nav{
+	width: 30%;
+	padding: 10px;
+}
+
+
+section nav ul li{
+	list-style: none;
+	padding: 10px;
+}
+
+section nav ul li a{
+	text-decoration: none;
+	color: #333;
+}
+
+section nav ul li:hover{
+	background-color: blue;
+}
+
+section nav ul li a:hover{
+	color: #fff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+form img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
